@@ -15,114 +15,20 @@ widget = {
 		parentanchor = top|left
 		
 		## MORGENROTE
-		widget = {
-			size = { 50 50 }
-			
-			icon = {
-				texture = "gfx/interface/main_hud/sidebar_skin_bg_2.dds"
-				
-				parentanchor = center
-				size = { 50 50 }
-				
-				datacontext = "[GetScriptedGui('community_gui_morgenrote_sgui')]"
-				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-
-				using = hud_shiny_effect
-			}
-			
-			button_icon_round = {
-				name = "mr_shortcut_button"
-				parentanchor = center
-				size = { 47 47 }
-				position = { 0 1 }
-				
-				datacontext = "[GetScriptedGui('community_gui_morgenrote_sgui')]"
-				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				
-				onclick = "[GetScriptedGui('community_gui_morgenrote_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				onclick = "[GetScriptedGui('mr_main_window_toggle_through_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				onclick = "[GetScriptedGui('mr_ranking_setup_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				tooltip = mr_button_tt
-				
-				blockoverride "icon" {
-					texture = "gfx/interface/icons/GUI_icons/GUI_morgenrote_icon.dds"
-				}
-				
-				blockoverride "icon_size" {
-					size = { 35 35 }
-				}
-				
-				state = {
-					name = _mouse_enter
-					alpha = 1
-					duration = 0.7
-					using = Animation_Curve_Default
-				}
-
-				state = {
-					name = _mouse_leave
-					alpha = 0.7
-					duration = 0.2
-					using = Animation_Curve_Default
-				}
-			}
-		}
+		mr_button_type = {}
 		
 		## GREECE, BYZANTIUM, & THE BALKANS
-		widget = {
-			size = { 50 50 }
-			
-			icon = {
-				texture = "gfx/interface/main_hud/sidebar_skin_bg_2.dds"
-				
-				parentanchor = center
-				size = { 50 50 }
-				
-				datacontext = "[GetScriptedGui('community_gui_grefm_sgui')]"
-				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+		grefm_button_type = {}
 
-				using = hud_shiny_effect
-			}
-			
-			button_icon_round = {
-				name = "eocfm_main_button"
-				
-				parentanchor = center
-				size = { 47 47 }
-				position = { 0 1 }
-				
-				datacontext = "[GetScriptedGui('community_gui_grefm_sgui')]"
-				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				
-				onclick = "[GetScriptedGui('community_gui_grefm_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				onclick = "[GetScriptedGui('eocfm_button_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				onclick = "[GetScriptedGui('eocfm_setup_sgui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-				tooltip = eocfm_gui_main_button
-				
-				blockoverride "icon" {
-					texture = "gfx/interface/icons/gui_icons/eocfm_main_button.dds"
-				}
-				
-				blockoverride "icon_size" {
-					size = { 35 35 }
-				}
-				
-				state = {
-					name = _mouse_enter
-					alpha = 1
-					duration = 0.7
-					using = Animation_Curve_Default
-				}
-
-				state = {
-					name = _mouse_leave
-					alpha = 0.7
-					duration = 0.2
-					using = Animation_Curve_Default
-				}
-			}
-		}
+		com_possible_button_1_type = {}
+		com_possible_button_2_type = {}
+		com_possible_button_3_type = {}
+		com_possible_button_4_type = {}
+		com_possible_button_5_type = {}
+		com_possible_button_6_type = {}
+		com_possible_button_7_type = {}
+		com_possible_button_8_type = {}
+		com_possible_button_9_type = {}
+		com_possible_button_10_type = {}
 	}
 }

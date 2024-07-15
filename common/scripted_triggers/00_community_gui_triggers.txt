@@ -1,0 +1,43 @@
+﻿##########################
+# COMMUNITY GUI TRIGGERS #
+##########################
+
+community_gui_button_1_trigger = {
+	always = no
+}
+
+community_gui_button_2_trigger = {
+	always = no
+}
+
+community_gui_button_3_trigger = {
+	always = no
+}
+
+community_gui_button_4_trigger = {
+	always = no
+}
+
+community_gui_button_5_trigger = {
+	always = no
+}
+
+community_gui_button_6_trigger = {
+	always = no
+}
+
+community_gui_button_7_trigger = {
+	always = no
+}
+
+community_gui_button_8_trigger = {
+	always = no
+}
+
+community_gui_button_9_trigger = {
+	always = no
+}
+
+community_gui_button_10_trigger = {
+	always = no
+}

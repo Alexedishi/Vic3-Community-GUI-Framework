@@ -11,6 +11,16 @@
 				has_variable = eocfm_window_is_active_var
 				var:eocfm_window_is_active_var > 0
 			}
+			community_gui_button_1_trigger = yes
+			community_gui_button_2_trigger = yes
+			community_gui_button_3_trigger = yes
+			community_gui_button_4_trigger = yes
+			community_gui_button_5_trigger = yes
+			community_gui_button_6_trigger = yes
+			community_gui_button_7_trigger = yes
+			community_gui_button_8_trigger = yes
+			community_gui_button_9_trigger = yes
+			community_gui_button_10_trigger = yes
 		}
 	}
 }
