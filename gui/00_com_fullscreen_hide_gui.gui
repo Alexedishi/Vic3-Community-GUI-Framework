@@ -1,3 +1,5 @@
+# Modification done by Alexedishi
+
 template fullscreen_hide {
 	visible = "[Not(
 		Or(
