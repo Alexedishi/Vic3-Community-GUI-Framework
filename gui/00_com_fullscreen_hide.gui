@@ -1,14 +1,14 @@
 # Modification done by Alexedishi
 
 template fullscreen_hide {
-	visible = "[Not(
+	visible = "[Not( 
 		Or(
 			Or(
 				Or(
 					Or(
 						Or(
 							Or(
-								InformationPanelBar.IsPanelOpen('politics'),
+								InformationPanelBar.IsPanelOpen('politics'), 
 								InformationPanelBar.IsPanelOpen('politics_panel_change_law')
 							), 
 							InformationPanelBar.IsPanelOpen('tech_tree')
