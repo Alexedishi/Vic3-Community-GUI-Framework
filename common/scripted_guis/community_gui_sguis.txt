@@ -25,6 +25,14 @@
 	}
 }
 
+community_sgui_sidebar_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_sidebar_trigger = yes
+	}
+}
+
 community_gui_morgenrote_sgui = {
 	scope = country
 	
@@ -70,5 +78,85 @@ community_gui_grefm_sgui = {
 				value = 1
 			}
 		}
+	}
+}
+
+community_gui_button_1_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_1_is_active = yes
+	}
+}
+
+community_gui_button_2_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_2_is_active = yes
+	}
+}
+
+community_gui_button_3_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_3_is_active = yes
+	}
+}
+
+community_gui_button_4_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_4_is_active = yes
+	}
+}
+
+community_gui_button_5_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_5_is_active = yes
+	}
+}
+
+community_gui_button_6_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_6_is_active = yes
+	}
+}
+
+community_gui_button_7_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_7_is_active = yes
+	}
+}
+
+community_gui_button_8_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_8_is_active = yes
+	}
+}
+
+community_gui_button_9_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_9_is_active = yes
+	}
+}
+
+community_gui_button_10_sgui = {
+	scope = country
+	
+	is_shown = {
+		community_gui_button_10_is_active = yes
 	}
 }
