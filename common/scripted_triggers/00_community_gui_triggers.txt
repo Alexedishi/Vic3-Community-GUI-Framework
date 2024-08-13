@@ -8,7 +8,10 @@
 community_gui_sidebar_trigger = {
 	OR = {
 		morgenrote_is_active = yes
-		grefm_is_active = yes
+		AND = {
+			grefm_is_active = yes
+			country_has_state_religion = rel:orthodox
+		}
 		community_gui_button_1_is_active = yes
 		community_gui_button_2_is_active = yes
 		community_gui_button_3_is_active = yes
