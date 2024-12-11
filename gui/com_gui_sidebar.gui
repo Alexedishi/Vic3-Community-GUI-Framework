@@ -63,6 +63,8 @@ vbox = {
 
 			item = {
 				widget = {
+				    datacontext = "[GetScriptedGui(Scope.GetIdeology.GetNameNoFormatting)]"
+
 					size = { 50 50 }
 
 					icon = {
@@ -80,10 +82,9 @@ vbox = {
 						size = { 47 47 }
 						position = { 0 1 }
 
-						visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-						enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						enabled = "[ScriptedGui.IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 
-						onclick = "[GetScriptedGui( Scope.GetIdeology.GetNameNoFormatting ).Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+						onclick = "[ScriptedGui.Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 						tooltip = "[Scope.GetIdeology.GetDesc]"
 
 
